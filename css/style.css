@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/photo10.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#nav {
+    width: 100%;
+    height: 10vh;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.az1 {
+    font-size: 18px;
+}
+
+.az2 {
+    color: grey;
+    font-size: 15px;
+}
+
+.wer {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.479);
+}
+
+.orta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    line-height: 0;
+    flex-direction: column;
+}
+
+.lor {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+hr {
+    border: none;
+    background: rgba(255, 255, 255, 0.534);
+    width: 25%;
+    height: 1px;
+}
+
+.fs {
+    font-size: 120px;
+    font-weight: 300;
+}
+
+#first {
+    padding: 100px 0;
+    background: rgba(211, 211, 211, 0.493);
+}
+
+.sall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sfirst,
+.ssecond {
+    display: flex;
+    flex-direction: column;
+}
+
+.block1,
+.block2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 40px;
+    background: white;
+    width: 520px;
+    height: 100%;
+}
+
+.sfirst {
+    margin-right: 2%;
+}
+
+.ssecond {
+    margin-left: 2%;
+}
+
+.img {
+    width: 600px;
+    height: 300px;
+}
+
+.mae {
+    color: rgba(128, 128, 128, 0.561);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.zxc {
+    border: none;
+    background: rgba(128, 128, 128, 0.274);
+    width: 45%;
+    height: 1px;
+}
+
+.zxcv {
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.big {
+    color: rgba(128, 128, 128, 0.466);
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.btn1 {
+    margin-top: 30px;
+    width: 125px;
+    display: block;
+    height: 45px;
+    background: transparent;
+    border: 1px solid grey;
+    transition: .4s;
+}
+
+.btn1:hover {
+    background: rgba(204, 204, 204, 0.26);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.wrapper {
+    background: rgba(0, 0, 0, 0.616);
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.attachment {
+    background: url('../img/photo1.png');
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.qsa {
+    color: rgba(93, 93, 93, 0.644);
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+
+.cvb {
+    border: none;
+    background: rgba(255, 255, 255, 0.781);
+    width: 90%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.qsd {
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+#third {
+    padding: 100px 0;
+    background: rgba(211, 211, 211, 0.493)
+}
+
+.wrappera {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cvba {
+    border: none;
+    background: rgba(93, 93, 93, 0.644);
+    width: 90%;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.qsda {
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+}
+
+.outside {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.ph1,
+.ph2,
+.ph3,
+.ph4 {
+    border: 15px solid white;
+}
+
+.ph1 {
+    margin-right: 3%;
+}
+
+.ph2 {
+    margin-left: 3%;
+}
+
+.ph3 {
+    margin-right: 3%;
+}
+
+.ph4 {
+    margin-left: 3%;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: grey;
+}
+
+.colone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.fcolone {
+    font-size: 35px;
+    margin-bottom: 2%;
+}
+
+.fab {
+    margin-right: 10px;
+}
+
+.fab:hover {
+    color: white;
+}
+
+.fas:hover {
+    color: white;
+}
